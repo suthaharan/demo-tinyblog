@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/all.min.css" >
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/custom.css" >
+
+    <title>Quiktodo</title>
+  </head>
+  <body  data-spy="scroll" data-target="#navbarSupportedContent" data-offset="40">
+    <header class="header_navbar">
+        <nav class="navbar navbar-expand-lg navbar-light main-menu" data-toggle="sticky-onscroll">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <!-- <img src="images/Logo.png" class="header_navbar_logo" alt="" loading="lazy"> -->
+                    <span  class="header_navbar_logo" >Tinyblog <i class="far fa-star"></i></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse align-self-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Sign-up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">My Site</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new-post.html">New Post</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="posts.html">Posts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="post-detail" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="post-content">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="mb-1">
+                                <h5>Where there is Will, there is Way</h5>
+                                <h6>Submitted less than a minute ago. <span class="mr-2"> Edit</span> | <span class="ml-2">Delete</span></h6>
+                            </div>
+                        </div>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat  nulla  pariatur.  Excepteur  sint  occaecat  cupidatat  non  proident,  sunt  in
+                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p class="mb-5">Sed  ut  perspiciatis  unde  omnis  iste  natus  error  sit  voluptatem  accusantium
+                            doloremque  laudantium,  totam  rem  aperiam,  eaque  ipsa  quae  ab  illo  inventore
+                            veritatis  et  quasi  architecto  beatae  vitae  dicta  sunt  explicabo.  Nemo  enim  ipsam
+                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                            magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+
+                    <div class="comment-lists mb-4">
+                        <h4 class="mb-4">0 Comments</h4>
+                    </div>
+                    <form class="new-comment-form mb-4">
+                        <h4 class="mb-5 font-weight-bold">Add a Comment</h4>
+                        <div class="w-75 comment-inputs">
+                            <div class="form-group row">
+                                <label for="inputTitle" class="col-sm-2 col-form-label">Name</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputTitle" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputDescription" class="col-sm-2 col-form-label">Comment</label>
+                                <div class="col-sm-10">
+                                    <textarea rows="4" class="form-control" id="inputDescription" placeholder="">
+                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-2 col-form-label"></label>
+                                <div class="col-sm-10 mt-5">
+                                    <button type="submit" class="btn btn-primary mb-2 mt-0">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 p-r-5 align-self-center">
+                        <!-- <a href="index.html"><img src="images/footer_logo.png" class="footer_logo img-fluid" alt=""></a> -->
+                        <span  class="footer_logo" >Tinyblog <i class="far fa-star"></i></span>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ml-lg-auto align-self-end">
+                        <div class="copyrights  text-right">
+                            © Tinyblog
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+	</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/custom.js"></script>
+  </body>
+</html>
